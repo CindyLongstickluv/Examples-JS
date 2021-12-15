@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Кр №2 вар. 11 </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body bgcolor="#008B8B">
+
+
+						<p> 1)  Дано число: 5883589</p>
+<button onclick="first1();"> Кол-во нечет чисел: </button>
+<input type="text" name='result' id="rez2" readonly="">
+	<br/><br/>
+<label>Введите А и нажмите ENTER: </label> <input type="text" name="vvod" id="vvod" onchange="first2();">
+<label>Ответ: </label> <input type="text" name="otvet" id="otvet" readonly="">
+	<br/> <br/>
+
+
+2) Найти все натуральные числа из промежутка от 1 до 200, у которых количество делителей равно N 
+	<br/> <br/>
+<label>Введите N и нажмите ENTER: </label> <input type="text" name="N" id="N" onchange="vtoroe();"> 
+<label>Ответ: </label> <input type="text" name="otvet2" id="otvet2" readonly="">
+	<br/> <br/>
+
+
+4) Заполнить с клавиатуры одномерный массив из 9 элементов целыми числами
+	<br/> <br/>
+<button onclick="chetvertoe()"> Заполнить массив </button>
+<!-- <input type="text" name="massive" onchange="chetvertoe()" id="mas9"> -->
+<input type="text" name="mas9" id="masvivod">
+	<br/> <br/>
+<label>Кол-во положительных элементов: </label><input type="text" name="positive" id="positive" readonly="">
+ 	<br/> <br/>
+<label>Кол-во отрицательных элементов: </label><input type="text" name="negative" id='negative' readonly="">
+	<br/> <br/>
+<label>Произведение всех нечетных элементов, кратных 3 </label><input type="text" name="krat" id="kratnost" readonly="">
+	<br/><br/>
+<label>Меняем местами минимальные элементы с максимальными: </label><input type="text" name="zamena1" readonly="" id="zamena1">
+	<br/><br/>
+<label>Добавление рандом числа [-5;5) в начало: </label> <input type="text" name="dobavlenie" readonly="" id="dobavlenie1">
+	<br/> <br/>
+	<label>Удаление из массива всех эл-ов >10 по модулю</label><input type="text" name="mod" readonly="" id="modul">
+<br/> <br/>
+
+
+ 5) Дан массив MxN, заполнен рандомно. Определить, существует ли столбец, в котором есть отрицательные эл-ы, кратные 5 
+ <br><br>
+<label id="bl">Массив MxN: </label>
+ <button onclick="pyatoe()">Создать</button>
+ <div id="masdv">Массив:</div>
+ <table class="mytable">
+ <tbody>
+ </tbody>
+ </table>
+ <br>
+ <label>Сущ. столбец, в котором есть отриц. эл-ы, кратные 5?</label>
+ <input type="text" name="stol" id="stolb" readonly="">
+<br/><br/>
+
+ 6)Дана строка с текстом, оканчивающимся точкой.
+<br><br>
+<label>Введите строку: </label><input type="text" name="stroka1" id="stroka1" > <button onclick="shestoe()">подтвердить</button>
+<br><br>
+<label>Кол-во неповторяющихся символов:</label><input type="text" name="simvoli" readonly="" id="nepovt">
+<br><br>
+<button onclick="last()">Преобразоавть</button>
+<label>Преобразованная строка: </label> <input type="text" name="smena" readonly="" id="preo">
+
+ </div>
+</body> 
+</html>
